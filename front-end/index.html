@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ChinaGram</title>
+</head>
+<body>
+    
+    <div class="head-nav">
+        <input type="text" class="search-active" id="searchInput">
+        <button class="dark" onclick="darkMode()">Dark Mode</button>
+        <h1>ChinaGram</h1>
+    </div>
+    
+    <div class="left-menu">
+        <img src="icons/home.png" class="home" onclick="location.reload()"><p1>Home</p1><br>
+        <img src="icons/notification.png" class="notification" onclick="toggleNotification()"> <p2>Notifications</p2><br>
+        <img src="icons/profile.png" class="profile"> <p3>Profile</p3><br>
+        <img src="icons/search.png" class="search" onclick="toggleSearch()"> <p4>Search</p4>
+        <img src="icons/more.png" class="create"><p5>Create</p5>
+    </div>
+    
+    <div class="friends-menu">Friends</div>
+    
+    <div class="post"></div>
+    <div class="notification-show"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

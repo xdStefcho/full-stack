@@ -1,0 +1,162 @@
+.head-nav {
+    height: 60px;
+    width: 100%;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    justify-content: space-between;
+    background-color:  lightgray;
+    border-bottom: solid gray 2px;
+}
+h1 {
+    font-family: cursive ;
+    color:darkslateblue;
+}
+.left-menu {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 250px;
+    height: 100%;
+    background-color: lightgray;
+    border: solid gray 3px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.friends-menu {
+    position: absolute;
+    right: 0%;
+    top: 10%;
+    width: 250px;
+    height: 100%;
+    background-color: lightgray;
+    border: solid gray 1px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    color: darkslateblue;
+    font-size: 30px;
+}
+.post {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    border: solid gray 1px;
+}
+img {
+    width: 40px;
+    height: 40px;
+    font-size: 100px;
+    
+    
+    
+    
+}
+.home {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    color: gray;
+}
+.notification {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+.profile {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+.search {
+    position: absolute;
+    left: 10%;
+    top: 35%;   
+}
+.create {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.dark {
+    position: absolute;
+    top: 15%;
+    left: 97%;
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    color: white;
+    border: solid black 10px transparent;
+}
+p1, p2, p3, p4 ,p5{
+    font-size: 25px;
+    left: 40%;
+    color:darkslateblue;
+    position:absolute;
+}
+/* .home:hover  {
+    color: red;
+    cursor: pointer;
+} */
+
+p1 {
+  top: 6%;
+    
+}
+p2 {
+    top: 16%;
+}
+p3 {
+    top: 26%; 
+}
+p4 {
+    top: 36%;  
+}
+p5 {
+    top: 46%;
+}
+
+.search-active {
+    
+    
+    display: none;
+
+}
+.search-active.active {
+    
+    display: block;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    left: 42%;
+    top: 20%;
+   
+}
+.notification-show {
+   
+    display: none;
+}
+.notification-show.active {
+    display: block;
+    width: 300px;
+    height: 60%;
+    background-color: grey;
+    position: absolute;
+    left: 13%;
+    top: 10%;
+    border: black solid 5px;
+   
+}
